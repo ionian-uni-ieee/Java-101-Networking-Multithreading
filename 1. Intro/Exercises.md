@@ -66,7 +66,8 @@ public class Employee {
   int salary;
   
   public void print(){
-    System.out.println("Age: " + this.age + "\nSalary: " + this.salary);
+    System.out.println("Age: " + this.age + "\nSalary: " + this.salary); 
+    //To this είναι προαιρετικό. Η Java έτσι και αλλιώς θα καταλάβει οτι πρέπει να χρησιμοποιήσει τις μεταβλητές από το αντικείμενο που κάλεσε την μέθοδο
   }
 }
       
